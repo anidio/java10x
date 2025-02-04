@@ -1,4 +1,4 @@
-package org.example.NivelBasico;
+package org.example.NivelBasico.array;
 
 public class Array {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.condicoes;
+package org.example.NivelBasico.condicoes;
 
 public class Ternarios {
     public static void main(String[] args) {
