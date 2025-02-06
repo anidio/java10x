@@ -1,9 +1,9 @@
-package org.example.NivelIntermediario;
+package org.example.NivelIntermediario.ninjas;
 
 public class Main {
 
     public static void main(String[] args) {
-        //Criar ninja Naruto - Naruto é um OBJETO
+        //Criar ninja Naruto - Naruto ï¿½ um OBJETO
         Uzumaki Naruto = new Uzumaki();
 
         Naruto.nome = "Naruto Uzumaki";
@@ -11,7 +11,7 @@ public class Main {
         Naruto.idade = 16;
         Naruto.ModoSabioAtivado();
 
-        //Criar ninja Sasuke Uchiha - Sasuke é um OBJETO
+        //Criar ninja Sasuke Uchiha - Sasuke ï¿½ um OBJETO
         Uchiha Sasuke = new Uchiha();
 
         Sasuke.nome = "Sasuke Uchiha";
@@ -19,12 +19,12 @@ public class Main {
         Sasuke.idade = 18;
         Sasuke.SharinganAtivado();
 
-        //Aplicando métodos aos meus objetos
+        //Aplicando mï¿½todos aos meus objetos
 //        Sasuke.SharinganAtivado();
 //        String chamandoMetodo = Sasuke.euSouUmNinja();
 //        System.out.println(chamandoMetodo);
 
-        //Criar ninja Sakura Haruno - Sakura é um OBJETO
+        //Criar ninja Sakura Haruno - Sakura ï¿½ um OBJETO
         Haruno Sakura = new Haruno();
 
         Sakura.nome = "Sakura Haruno";
@@ -34,7 +34,7 @@ public class Main {
 
 
         int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(50);
-        System.out.println("Voce tem " + Sasuke.idade + " então falta no mínimo: " + quantoTempoFalta + " anos para voce ser Hokage");
+        System.out.println("Voce tem " + Sasuke.idade + " entï¿½o falta no mï¿½nimo: " + quantoTempoFalta + " anos para voce ser Hokage");
 
     }
 }

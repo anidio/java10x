@@ -1,4 +1,4 @@
-package org.example.NivelIntermediario;
+package org.example.NivelIntermediario.ninjas;
 
 public class Uzumaki extends Ninja{
 
