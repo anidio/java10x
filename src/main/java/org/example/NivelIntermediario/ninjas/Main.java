@@ -32,6 +32,23 @@ public class Main {
         Sakura.idade = 18;
         Sakura.AtivarCura();
 
+        //Criar ninja Sakura Haruno - Sakura e um OBJETO
+        Hyuga Hinata = new Hyuga();
+
+        Hinata.nome = "Hinata Hyuga";
+        Hinata.aldeia = "Aldeia da folha";
+        Hinata.idade = 16;
+        Hinata.ByakuganAtivado();
+
+
+        //objeto 5
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da folha";
+        Boruto.idade = 9;
+        Boruto.ModoSabioAtivado();
+        Boruto.AtivarOKarma();
+        Boruto.AtivarJougan();
 
         int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(50);
         System.out.println("Voce tem " + Sasuke.idade + " ent�o falta no m�nimo: " + quantoTempoFalta + " anos para voce ser Hokage");
