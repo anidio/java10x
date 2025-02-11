@@ -16,5 +16,8 @@ public class Ninja {
           return idadeMinimaParaSerHokage - idade;
      }
 
+     public void habilidadeEspecial(){
+          System.out.println("Meu nome é " + nome + ", E essa é minha habilidade especial");
+     }
 
 }
