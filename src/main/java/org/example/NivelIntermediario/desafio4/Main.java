@@ -12,7 +12,7 @@ public class Main {
         Ninja1.executarHabilidade();
 
         //ninnja Avançado
-        NinjaAvançado Ninja2 = new NinjaAvançado();
+        NinjaAvancado Ninja2 = new NinjaAvancado();
         Ninja2.nome = "Fiasco Silva";
         Ninja2.idade = 30;
         Ninja2.mostrarInformacoes();

@@ -50,8 +50,14 @@ public class Main {
         Boruto.AtivarOKarma();
         Boruto.AtivarJougan();
 
-        int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(50);
-        System.out.println("Voce tem " + Sasuke.idade + " ent�o falta no m�nimo: " + quantoTempoFalta + " anos para voce ser Hokage");
+        //classes abstratas
+        Senju Hashirama = new Senju();
+        Hashirama.nome = "Hashirama Senju";
+        Hashirama.idade = 45;
+        Hashirama.sabedoriaHokage();
+
+//        int quantoTempoFalta = Sasuke.anosParaSeTornarHokage(50);
+//        System.out.println("Voce tem " + Sasuke.idade + " ent�o falta no m�nimo: " + quantoTempoFalta + " anos para voce ser Hokage");
 
     }
 }

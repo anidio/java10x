@@ -1,18 +1,18 @@
 package org.example.NivelIntermediario.desafio4;
 
-public class NinjaAvançado extends Ninjas implements Ninja{
+public class NinjaAvancado extends Ninjas implements Ninja{
 
     String especialidade;
 
     public void mostrarEspecialidade(){
-        System.out.println("Especialidade do Ninja Avançado: " + especialidade);
+        System.out.println("Especialidade do Ninja Avanï¿½ado: " + especialidade);
     }
 
     @Override
     public void mostrarInformacoes() {
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
-        System.out.println("Eu sou um ninja avaçado com habilidade especial de dominar o conhecimeto de java");
+        System.out.println("Eu sou um ninja avaï¿½ado com habilidade especial de dominar o conhecimeto de java");
     }
 
     @Override
