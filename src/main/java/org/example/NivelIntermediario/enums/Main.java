@@ -6,7 +6,7 @@ public class Main {
         Missoes missao1 = new Missoes("Resgatar cachorro", RankDeMissoes.D);
         missao1.exibirDetalhes();
 
-        NivelIntermediario.Missoes missao2 = new NivelIntermediario.Missoes("Derrotar Zabuza", NivelIntermediario.RankDeMissoes.A);
+        Missoes missao2 = new Missoes("Derrotar Zabuza", RankDeMissoes.A);
         missao2.exibirDetalhes();
     }
 }

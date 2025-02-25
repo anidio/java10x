@@ -1,4 +1,4 @@
-package org.example.NivelIntermediario.enums;
+package org.example.NivelIntermediario.generics;
 
 public class Uzumaki extends Ninja {
 
@@ -6,8 +6,4 @@ public class Uzumaki extends Ninja {
         System.out.println("Meu é " + nome + ". E eu ativei o modo Sabio"  );
     }
 
-    @Override
-    public void nomeDoNinja() {
-
-    }
 }
